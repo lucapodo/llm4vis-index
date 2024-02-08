@@ -66,4 +66,13 @@
 
 ## Citation and Contribution
 
-[Instructions on how to cite and contribute to LLM4VIS]
+To cite this repository in publications, please use the following Bibtex entry:
+```bibtex
+@misc{llm4vis_repository,
+  author       = {Your Name},
+  title        = {LLM4VIS Repository},
+  year         = {Year},
+  publisher    = {GitHub},
+  journal      = {GitHub Repository},
+  howpublished = {\url{https://github.com/lucapodo/llm4vis-index}},
+}
