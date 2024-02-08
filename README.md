@@ -62,7 +62,8 @@
 
 ## Submit Your Work
 
-[Instructions on how to submit work related to LLM4VIS]
+If you would like your work to be indexed in this repository, please submit it to us by clicking the button below.
+[Submit Your Work](#) [![Submit](https://img.shields.io/badge/Submit-Your_Work-green)](#) 
 
 ## Citation and Contribution
 
