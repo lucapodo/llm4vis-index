@@ -54,7 +54,7 @@
 
 [Insert table here]
 
-| Name (Hyperlink) | Description | Classification Based on Hypercube |
+| Name | Description | Classification Based on Hypercube |
 | ----------------- | ----------- | ---------------------------------- |
 | Example1 | Description of Example1 | Classification1 |
 | Example2 | Description of Example2 | Classification2 |
