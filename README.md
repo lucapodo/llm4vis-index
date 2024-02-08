@@ -1,5 +1,4 @@
 # LLM4Vis index
-This repository provides an overview of the current state of the art of the LLM4VIS field
 
 * [LLM4VIS Introduction](#llm4vis-introduction)
 * [LLM4VIS: Difference between the Two Approaches with and without the Wrapper](#llm4vis-difference-between-the-two-approaches-with-and-without-the-wrapper)
