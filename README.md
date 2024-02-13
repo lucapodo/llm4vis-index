@@ -22,8 +22,8 @@
 
 In the realm of data science, Language Models (LMs) have emerged as powerful tools for various tasks, both as standalone entities and in conjunction with coding environments like Python. Here's a brief overview of what can be achieved using LMs in both scenarios:
 
-- Pure LLM Approach: LLMs can sift through large volumes of textual data, extracting key insights, trends, and patterns without the need for additional agents or components.
-- LLMs with Code Environment Integration: LLMs can generate code snippets for tasks like data cleaning, transformation, and normalization, which can then be executed within a coding environment to prepare data for analysis.
+- **Pure LLM Approach**: LLMs can sift through large volumes of textual data, extracting key insights, trends, and patterns without the need for additional agents or components.
+- **LLMs with Code Environment Integration**: LLMs can generate code snippets for tasks like data cleaning, transformation, and normalization, which can then be executed within a coding environment to prepare data for analysis.
 
 ![Alt text](pure.svg "Pure approach")
 ![Alt text](hybrid.svg "Hybrid approach")
@@ -45,7 +45,7 @@ In the realm of data science, Language Models (LMs) have emerged as powerful too
 ### Tools
 | Name | Description | Classification Based on Hypercube |
 | ----------------- | ----------- | ---------------------------------- |
-| Example1 | Description of Example1 | Classification1 |
+| PandasAI | Description of Example1 | Classification1 |
 | Example2 | Description of Example2 | Classification2 |
 | Example3 | Description of Example3 | Classification1 |
 
