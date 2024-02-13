@@ -28,39 +28,57 @@ In the realm of data science, Language Models (LMs) have emerged as powerful too
 ![Alt text](pure.svg "Pure approach")
 ![Alt text](hybrid.svg "Hybrid approach")
 
+## LLM4VIS hypercube dimensions
 
-## LLM4VIS Hypercube Dimensions
 
-### Tools
-
-[Describe the tools used in LLM4VIS]
-
-### Research Paper
-
-[Link to the research paper related to LLM4VIS]
-
-### Models
-
-[Describe the models utilized in LLM4VIS]
-
-### Framework
-
-[Detail the framework employed in LLM4VIS]
-
-### Dataset
-
-[Describe the dataset utilized in LLM4VIS]
-
-### Benchmark and Guidance
-
-[Provide benchmarking results and guidance for LLM4VIS]
+## LLM4VIS index contents
+[Add introduction to the content sections. Describe each dimension]
+- Tools: [what it contains]
+- Research Paper: ... 
+- Models: ...
+- Framework: ...
+- Dataset: ...
+- Benchmark and Guidance: ...
 
 ## Sections
 
-### Table with Name (Hyperlink), Description, and Classification Based on the Hypercube
+### Tools
+| Name | Description | Classification Based on Hypercube |
+| ----------------- | ----------- | ---------------------------------- |
+| Example1 | Description of Example1 | Classification1 |
+| Example2 | Description of Example2 | Classification2 |
+| Example3 | Description of Example3 | Classification1 |
 
-[Insert table here]
 
+### Research Paper
+| Name | Description | Classification Based on Hypercube |
+| ----------------- | ----------- | ---------------------------------- |
+| Example1 | Description of Example1 | Classification1 |
+| Example2 | Description of Example2 | Classification2 |
+| Example3 | Description of Example3 | Classification1 |
+
+### Models
+| Name | Description | Classification Based on Hypercube |
+| ----------------- | ----------- | ---------------------------------- |
+| Example1 | Description of Example1 | Classification1 |
+| Example2 | Description of Example2 | Classification2 |
+| Example3 | Description of Example3 | Classification1 |
+
+### Frameworks
+| Name | Description | Classification Based on Hypercube |
+| ----------------- | ----------- | ---------------------------------- |
+| Example1 | Description of Example1 | Classification1 |
+| Example2 | Description of Example2 | Classification2 |
+| Example3 | Description of Example3 | Classification1 |
+
+### Datasets
+| Name | Description | Classification Based on Hypercube |
+| ----------------- | ----------- | ---------------------------------- |
+| Example1 | Description of Example1 | Classification1 |
+| Example2 | Description of Example2 | Classification2 |
+| Example3 | Description of Example3 | Classification1 |
+
+### Benchmarks and Guidance
 | Name | Description | Classification Based on Hypercube |
 | ----------------- | ----------- | ---------------------------------- |
 | Example1 | Description of Example1 | Classification1 |
