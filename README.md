@@ -20,7 +20,7 @@
 
 ## LLM4VIS: Difference between the Two Approaches with and without the Wrapper
 
-# Leveraging Language Models for Data Science: From Pure Text to Executable Code
+### Leveraging Language Models as Data Scientists approaches: From Pure Text to Executable Code
 
 In the realm of data science, Language Models (LMs) have emerged as powerful tools for various tasks, both as standalone entities and in conjunction with coding environments like Python. Here's a brief overview of what can be achieved using LMs in both scenarios:
 
@@ -28,9 +28,8 @@ In the realm of data science, Language Models (LMs) have emerged as powerful too
 - LLMs with Code Environment Integration: LLMs can generate code snippets for tasks like data cleaning, transformation, and normalization, which can then be executed within a coding environment to prepare data for analysis.
 
 ![Alt text](pure.svg "Pure approach")
-![Alt text](hybrid.svg)
+![Alt text](hybrid.svg "Hybrid approach")
 
-[Explain the difference between the two approaches of LLM4VIS, with and without the wrapper]
 
 ## LLM4VIS Hypercube Dimensions
 
