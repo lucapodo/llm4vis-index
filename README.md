@@ -18,9 +18,7 @@
 
 [Insert introduction to LLM4VIS here]
 
-## LLM4VIS: Difference between the Two Approaches with and without the Wrapper
-
-### Leveraging Language Models as Data Scientists approaches: From Pure Text to Executable Code
+## Large Language Model as Data Scientists approaches: From Pure LLM strategy to hybrid one
 
 In the realm of data science, Language Models (LMs) have emerged as powerful tools for various tasks, both as standalone entities and in conjunction with coding environments like Python. Here's a brief overview of what can be achieved using LMs in both scenarios:
 
