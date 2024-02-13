@@ -20,6 +20,8 @@
 
 ## LLM4VIS: Difference between the Two Approaches with and without the Wrapper
 
+![Alt text](hybrid.svg "a title")
+
 [Explain the difference between the two approaches of LLM4VIS, with and without the wrapper]
 
 ## LLM4VIS Hypercube Dimensions
