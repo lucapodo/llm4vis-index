@@ -3,14 +3,13 @@
 * [LLM4VIS Introduction](#llm4vis-introduction) 📝
 * [LLM4VIS: Difference between the Two Approaches with and without the Wrapper](#llm4vis-difference-between-the-two-approaches-with-and-without-the-wrapper) 🔄
 * [LLM4VIS Hypercube Dimensions](#llm4vis-hypercube-dimensions) 📊
+* [LLM4VIS index sections](#sections) 📚
     * [Tools](#tools) 🔧
     * [Research Paper](#research-paper) 📄
     * [Models](#models) 🤖
     * [Framework](#framework) 🛠️
     * [Dataset](#dataset) 📦
     * [Benchmark and Guidance](#benchmark-and-guidance) 📈
-* [Sections](#sections) 📚
-    * [Table with Name (Hyperlink), Description, and Classification Based on the Hypercube](#table-with-name-hyperlink-description-and-classification-based-on-the-hypercube) 📊
 * [Submit Your Work](#submit-your-work) 📥
 * [Citation and Contribution](#citation-and-contribution) 🔖
 
