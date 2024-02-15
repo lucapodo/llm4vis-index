@@ -49,7 +49,7 @@ By leveraging these dimensions, it becomes feasible to categorize and evaluate a
 ### Tools
 | Name | Description | Classification Based on Hypercube |
 | ----------------- | ----------- | ---------------------------------- |
-| (PandasAI)[https://github.com/Sinaptik-AI/pandas-ai] | PandasAI is designed to be used in conjunction with pandas. It makes pandas conversational, allowing you to ask questions to your data in natural language | Classification1 |
+| [PandasAI](https://github.com/Sinaptik-AI/pandas-ai) | PandasAI is designed to be used in conjunction with pandas. It makes pandas conversational, allowing you to ask questions to your data in natural language | Classification1 |
 | Example2 | Description of Example2 | Classification2 |
 | Example3 | Description of Example3 | Classification1 |
 
