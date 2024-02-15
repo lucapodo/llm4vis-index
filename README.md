@@ -4,7 +4,7 @@
 * [LLM4VIS: Difference between the Two Approaches with and without the Wrapper](#llm4vis-difference-between-the-two-approaches-with-and-without-the-wrapper) 🔄
 * [LLM4VIS hypercube](#llm4vis-hypercube) 📊
 * [LLM4VIS index contents](#llm4vis-index-contents) 📊
-* [LLM4VIS index sections](#sections) 📚
+* [Table of contents](#sections) 📚
     * [Tools](#tools) 🔧
     * [Research Paper](#research-paper) 📄
     * [Models](#models) 🤖
