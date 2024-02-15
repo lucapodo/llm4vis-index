@@ -29,7 +29,14 @@ In the realm of data science, Language Models (LMs) have emerged as powerful too
 ![Alt text](hybrid.svg "Hybrid approach")
 
 ## LLM4VIS hypercube dimensions
+An LLM4VIS methodology can be delineated by a hypercube comprising the following dimensions:
+1. Learning Strategy (Fine-tuning/Few-zero-shot learning): This dimension defines the methodology used for model training.
+2. Task-Agnosticism: This dimension assesses whether the model's input encompasses only the dataset or incorporates user utterances.
+3. Approach: This dimension distinguishes between a pure LLM approach and one enriched with additional tools or methodologies.
+4. Output Explainability: This dimension determines whether the model merely provides a visualization or includes a narrative to elucidate the reasoning strategy.
+5. Effort: This dimension quantifies the computational and strategic effort required to generate the output.
 
+By leveraging these dimensions, it becomes feasible to categorize and evaluate all proposed approaches in the literature, providing a comprehensive overview of the current state-of-the-art in this domain.
 
 ## LLM4VIS index contents
 [Add introduction to the content sections. Describe each dimension]
