@@ -3,8 +3,7 @@
 * [LLM4VIS Introduction](#llm4vis-introduction) 📝
 * [LLM4VIS: Difference between the Two Approaches with and without the Wrapper](#llm4vis-difference-between-the-two-approaches-with-and-without-the-wrapper) 🔄
 * [LLM4VIS hypercube](#llm4vis-hypercube) 📊
-* [LLM4VIS index contents](#llm4vis-index-contents) 📊
-* [Table of contents](#sections) 📚
+* [LLM4VIS index contents](#llm4vis-index-contents) 📚
     * [Tools](#tools) 🔧
     * [Research Paper](#research-paper) 📄
     * [Models](#models) 🤖
@@ -46,8 +45,6 @@ By leveraging these dimensions, it becomes feasible to categorize and evaluate a
 - Framework: ...
 - Dataset: ...
 - Benchmark and Guidance: ...
-
-## Sections
 
 ### Tools
 | Name | Description | Classification Based on Hypercube |
