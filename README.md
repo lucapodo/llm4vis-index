@@ -9,7 +9,7 @@
     * [Models](#models) 🤖
     * [Framework](#framework) 🛠️
     * [Dataset](#dataset) 📦
-    * [Benchmark and Guidance](#benchmark-and-guidance) 📈
+    * [Benchmark and Survey](#benchmark-and-guidance) 📈
 * [Submit Your Work](#submit-your-work) 📥
 * [Citation and Contribution](#citation-and-contribution) 🔖
 
@@ -82,11 +82,13 @@ By leveraging these dimensions, it becomes feasible to categorize and evaluate a
 | Example2 | Description of Example2 | Classification2 |
 | Example3 | Description of Example3 | Classification1 |
 
-### Benchmarks and Guidance
+### Benchmarks and Survey
 | Name | Description | Classification Based on Hypercube |
 | ----------------- | ----------- | ---------------------------------- |
 | [LLM4VIS evaluation](https://arxiv.org/pdf/2401.11255.pdf) | Description of Example1 | Classification1 |
-| Example2 | Description of Example2 | Classification2 |
+| [Leveraging Large Models for Crafting Narrative
+Visualization](https://arxiv.org/pdf/2401.14010.pdf) | A survey of 79 papers to explore the role of large models in automating narrative
+visualization creation | Classification2 |
 | Example3 | Description of Example3 | Classification1 |
 
 ## Submit Your Work
