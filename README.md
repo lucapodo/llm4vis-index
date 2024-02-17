@@ -86,8 +86,7 @@ By leveraging these dimensions, it becomes feasible to categorize and evaluate a
 | Name | Description | Classification Based on Hypercube |
 | ----------------- | ----------- | ---------------------------------- |
 | [LLM4VIS evaluation](https://arxiv.org/pdf/2401.11255.pdf) | Description of Example1 | Classification1 |
-| [Leveraging Large Models for Crafting Narrative
-Visualization](https://arxiv.org/pdf/2401.14010.pdf) | A survey of 79 papers to explore the role of large models in automating narrative
+| [Leveraging Large Models for Crafting Narrative Visualization](https://arxiv.org/pdf/2401.14010.pdf) | A survey of 79 papers to explore the role of large models in automating narrative
 visualization creation | Classification2 |
 | Example3 | Description of Example3 | Classification1 |
 
