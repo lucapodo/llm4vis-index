@@ -85,7 +85,7 @@ By leveraging these dimensions, it becomes feasible to categorize and evaluate a
 ### Benchmarks and Guidance
 | Name | Description | Classification Based on Hypercube |
 | ----------------- | ----------- | ---------------------------------- |
-| Example1 | Description of Example1 | Classification1 |
+| [LLM4VIS evaluation](https://arxiv.org/pdf/2401.11255.pdf) | Description of Example1 | Classification1 |
 | Example2 | Description of Example2 | Classification2 |
 | Example3 | Description of Example3 | Classification1 |
 
