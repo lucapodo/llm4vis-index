@@ -13,6 +13,9 @@
 * [Submit Your Work](#submit-your-work) 📥
 * [Citation and Contribution](#citation-and-contribution) 🔖
 
+## LLM4VIS index badge
+![Hits](https://github.com/lucapodo/llm4vis-index/blob/main/badge.svg)
+
 ## LLM4VIS Introduction
 
 [Insert introduction to LLM4VIS here]
