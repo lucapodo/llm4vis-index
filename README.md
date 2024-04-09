@@ -15,6 +15,7 @@
 
 ## LLM4VIS index badge
 ![Hits](https://github.com/lucapodo/llm4vis-index/blob/main/badge.svg)
+[![Custom Badge](https://img.shields.io/badge/Version-1.0-blue.svg)](https://example.com)
 
 ## LLM4VIS Introduction
 
