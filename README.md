@@ -52,9 +52,9 @@ The LLM4VIS (Language Models for Visual Information Systems) index serves as a c
 ### Tools
 | Name | Description | 
 | ----------------- | ----------- |
-| [PandasAI](https://github.com/Sinaptik-AI/pandas-ai) | PandasAI is designed to be used in conjunction with pandas. It makes pandas conversational, allowing you to ask questions to your data in natural language | Classification1 |
-| Example2 | Description of Example2 | 
-| Example3 | Description of Example3 | 
+| [PandasAI](https://github.com/Sinaptik-AI/pandas-ai) | PandasAI is a Python library that makes it easy to ask questions to your data (CSV, XLSX, PostgreSQL, MySQL, BigQuery, Databrick, Snowflake, etc.) in natural language. Beyond querying, PandasAI offers functionalities to visualize data through graphs, cleanse datasets by addressing missing values, and enhance data quality through feature generation, making it a comprehensive tool for data scientists and analysts.
+| [VannaAI](https://github.com/vanna-ai/vanna) | Vanna is an MIT-licensed open-source Python RAG (Retrieval-Augmented Generation) framework for SQL generation and related functionality. It also allows to generate visualization with plotly based on the SQL queries. | 
+| [OpenAI Codeinterpreter](https://platform.openai.com/docs/assistants/tools/code-interpreter#:~:text=Code%20Interpreter%20allows%20your%20Assistant,until%20the%20code%20execution%20succeeds.) | Code Interpreter can run code iteratively to solve more challenging code, math, and data analysis problems| 
 
 
 ### Research Paper
@@ -72,8 +72,8 @@ The LLM4VIS (Language Models for Visual Information Systems) index serves as a c
 | Example3 | Description of Example3 |
 
 ### Frameworks
-| Name | Description | Classification Based on Hypercube |
-| ----------------- | ----------- | ---------------------------------- |
+| Name | Description | 
+| ----------------- | ----------- |
 | Example1 | Description of Example1 |
 | Example2 | Description of Example2 |
 | Example3 | Description of Example3 |
