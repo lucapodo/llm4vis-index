@@ -100,7 +100,7 @@ The LLM4VIS (Language Models for Visual Information Systems) index serves as a c
 ## Submit Your Work
 
 If you would like your work to be indexed in this repository, please submit it to us by clicking the button below.
-[![Submit](https://img.shields.io/badge/Submit-Your_Work-green)](#) 
+[![Submit](https://img.shields.io/badge/Submit-Your_Work-green)](https://forms.gle/iV6wxR8wFoFvqowk8) 
 
 ## Citation and Contribution
 
