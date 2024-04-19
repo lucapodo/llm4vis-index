@@ -42,12 +42,12 @@ By leveraging these dimensions, it becomes feasible to categorize and evaluate a
 
 ## LLM4VIS index contents
 The LLM4VIS (Language Models for Visual Information Systems) index serves as a comprehensive guide to resources, tools, research papers, models, frameworks, datasets, benchmarks, and guidance relevant to the intersection of language and visual information systems. Below is an overview of each dimension covered in the index.
-- Tools: This section comprises essential resources like Python libraries and tools necessary to implement an effective Language Models for Visual Information Systems (LLM4Vis) approach.
-- Research Paper: This section compiles academic papers exploring large language models applied to the data visualization field
-- Models: This section contains all the models fine-tuned on the LLM4VIS tasks
-- Framework: This section contains all the works focused on developing the LLM4VIS framework
-- Dataset: This section contains a comprehensive list of all the datasets, categorized based on their task (e.g., captioning, nl2vis, ...)
-- Benchmark and Guidance: This section contains all the research papers that provide guidelines or benchmarks for the other researchers.
+- **Tools**: This section comprises essential resources like Python libraries and tools necessary to implement an effective Language Models for Visual Information Systems (LLM4Vis) approach.
+- **Research Paper**: This section compiles academic papers exploring large language models applied to the data visualization field
+- **Models**: This section contains all the models fine-tuned on the LLM4VIS tasks
+- **Framework**: This section contains all the works focused on developing the LLM4VIS framework
+- **Dataset**: This section contains a comprehensive list of all the datasets, categorized based on their task (e.g., captioning, nl2vis, ...)
+- **Benchmark and Guidance**: This section contains all the research papers that provide guidelines or benchmarks for the other researchers.
 
 ### Tools
 | Name | Description | 
@@ -79,11 +79,11 @@ The LLM4VIS (Language Models for Visual Information Systems) index serves as a c
 | Example3 | Description of Example3 |
 
 ### Datasets
-| Name | Description |
-| ----------------- | ----------- | 
-| Example1 | Description of Example1 |
-| Example2 | Description of Example2 |
-| Example3 | Description of Example3 |
+| Name | Description | Task |
+| ----------------- | ----------- | ------- |
+| Example1 | Description of Example1 | Captioning |
+| Example2 | Description of Example2 | Nl2vis |
+| Example3 | Description of Example3 | Nl2vis |
 
 ### Benchmarks and Survey
 | Name | Description | 
