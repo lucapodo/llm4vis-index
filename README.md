@@ -50,48 +50,48 @@ By leveraging these dimensions, it becomes feasible to categorize and evaluate a
 - Benchmark and Guidance: ...
 
 ### Tools
-| Name | Description | Classification Based on Hypercube |
-| ----------------- | ----------- | ---------------------------------- |
+| Name | Description | 
+| ----------------- | ----------- |
 | [PandasAI](https://github.com/Sinaptik-AI/pandas-ai) | PandasAI is designed to be used in conjunction with pandas. It makes pandas conversational, allowing you to ask questions to your data in natural language | Classification1 |
-| Example2 | Description of Example2 | Classification2 |
-| Example3 | Description of Example3 | Classification1 |
+| Example2 | Description of Example2 | 
+| Example3 | Description of Example3 | 
 
 
 ### Research Paper
-| Name | Description | Classification Based on Hypercube |
-| ----------------- | ----------- | ---------------------------------- |
-| Example1 | Description of Example1 | Classification1 |
-| Example2 | Description of Example2 | Classification2 |
-| Example3 | Description of Example3 | Classification1 |
+| Name | Description |
+| ----------------- | ----------- |
+| Example1 | Description of Example1 |
+| Example2 | Description of Example2 |
+| Example3 | Description of Example3 |
 
 ### Models
-| Name | Description | Classification Based on Hypercube |
-| ----------------- | ----------- | ---------------------------------- |
-| Example1 | Description of Example1 | Classification1 |
-| Example2 | Description of Example2 | Classification2 |
-| Example3 | Description of Example3 | Classification1 |
+| Name | Description |
+| ----------------- | ----------- |
+| Example1 | Description of Example1 |
+| Example2 | Description of Example2 |
+| Example3 | Description of Example3 |
 
 ### Frameworks
 | Name | Description | Classification Based on Hypercube |
 | ----------------- | ----------- | ---------------------------------- |
-| Example1 | Description of Example1 | Classification1 |
-| Example2 | Description of Example2 | Classification2 |
-| Example3 | Description of Example3 | Classification1 |
+| Example1 | Description of Example1 |
+| Example2 | Description of Example2 |
+| Example3 | Description of Example3 |
 
 ### Datasets
-| Name | Description | Classification Based on Hypercube |
-| ----------------- | ----------- | ---------------------------------- |
-| Example1 | Description of Example1 | Classification1 |
-| Example2 | Description of Example2 | Classification2 |
-| Example3 | Description of Example3 | Classification1 |
+| Name | Description |
+| ----------------- | ----------- | 
+| Example1 | Description of Example1 |
+| Example2 | Description of Example2 |
+| Example3 | Description of Example3 |
 
 ### Benchmarks and Survey
-| Name | Description | Classification Based on Hypercube |
-| ----------------- | ----------- | ---------------------------------- |
-| [LLM4VIS evaluation](https://arxiv.org/pdf/2401.11255.pdf) | Description of Example1 | Classification1 |
+| Name | Description | 
+| ----------------- | ----------- | 
+| [LLM4VIS evaluation](https://arxiv.org/pdf/2401.11255.pdf) | Description of Example1 |
 | [Leveraging Large Models for Crafting Narrative Visualization](https://arxiv.org/pdf/2401.14010.pdf) | A survey of 79 papers to explore the role of large models in automating narrative
-visualization creation | Classification2 |
-| Example3 | Description of Example3 | Classification1 |
+visualization creation | 
+| Example3 | Description of Example3 | 
 
 ## Submit Your Work
 
@@ -103,9 +103,9 @@ If you would like your work to be indexed in this repository, please submit it t
 To cite this repository in publications, please use the following Bibtex entry:
 ```bibtex
 @misc{llm4vis_repository,
-  author       = {Your Name},
+  author       = {Luca Podo, Shani Spivak},
   title        = {LLM4VIS Repository},
-  year         = {Year},
+  year         = {2024},
   publisher    = {GitHub},
   journal      = {GitHub Repository},
   howpublished = {\url{https://github.com/lucapodo/llm4vis-index}},
