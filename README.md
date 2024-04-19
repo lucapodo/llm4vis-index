@@ -14,7 +14,7 @@
 * [Citation and Contribution](#citation-and-contribution) 🔖
 
 ## LLM4VIS index badge
-[![Custom Badge](https://github.com/lucapodo/llm4vis-index/blob/main/badge.svg)](https://example.com)
+[![Custom Badge](https://github.com/lucapodo/llm4vis-index/blob/main/badge.svg)](https://github.com/lucapodo/llm4vis-index)
 
 ## LLM4VIS Introduction
 
