@@ -41,13 +41,13 @@ An LLM4VIS methodology can be delineated by a hypercube comprising the following
 By leveraging these dimensions, it becomes feasible to categorize and evaluate all proposed approaches in the literature, providing a comprehensive overview of the current state-of-the-art in this domain.
 
 ## LLM4VIS index contents
-[Add introduction to the content sections. Describe each dimension]
-- Tools: [what it contains]
-- Research Paper: ... 
-- Models: ...
-- Framework: ...
-- Dataset: ...
-- Benchmark and Guidance: ...
+The LLM4VIS (Language Models for Visual Information Systems) index serves as a comprehensive guide to resources, tools, research papers, models, frameworks, datasets, benchmarks, and guidance relevant to the intersection of language and visual information systems. Below is an overview of each dimension covered in the index.
+- Tools: This section comprises essential resources like Python libraries and tools necessary to implement an effective Language Models for Visual Information Systems (LLM4Vis) approach.
+- Research Paper: This section compiles academic papers exploring large language models applied to the data visualization field
+- Models: This section contains all the models fine-tuned on the LLM4VIS tasks
+- Framework: This section contains all the works focused on developing the LLM4VIS framework
+- Dataset: This section contains a comprehensive list of all the datasets, categorized based on their task (e.g., captioning, nl2vis, ...)
+- Benchmark and Guidance: This section contains all the research papers that provide guidelines or benchmarks for the other researchers.
 
 ### Tools
 | Name | Description | 
@@ -89,8 +89,7 @@ By leveraging these dimensions, it becomes feasible to categorize and evaluate a
 | Name | Description | 
 | ----------------- | ----------- | 
 | [LLM4VIS evaluation](https://arxiv.org/pdf/2401.11255.pdf) | Description of Example1 |
-| [Leveraging Large Models for Crafting Narrative Visualization](https://arxiv.org/pdf/2401.14010.pdf) | A survey of 79 papers to explore the role of large models in automating narrative
-visualization creation | 
+| [Leveraging Large Models for Crafting Narrative Visualization](https://arxiv.org/pdf/2401.14010.pdf) | A survey of 79 papers to explore the role of large models in automating narrative visualization creation | 
 | Example3 | Description of Example3 | 
 
 ## Submit Your Work
