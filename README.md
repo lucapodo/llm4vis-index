@@ -18,7 +18,9 @@
 
 ## LLM4VIS Introduction
 
-[Insert introduction to LLM4VIS here]
+Following the disruptive use of generative artificial intelligence across application domains, LLM4VIS (Large Language Model for Visualizations) is becoming one of the most promising research areas to advance existing NL2VIS approaches. LLM4VIS aims to use cutting-edge LLM technology to query data sources using only natural language queries and translate them into visualizations that accurately represent the underlying data. Although LLM like Llama or GPT, have shown a more advanced semantic understanding of free text, they suffer from the lack of interpretability of the model’s responses. Furthermore LLM, those involving computationally intensive and expensive architectures containing billions, and recently trillions of parameters, also have other contraindications, such as hallucinations, the lack of controllability and interpretability, and the high computational cost4, hindering their large-scale adoption in applications. In particular, controllability has a notable, and often neglected, impact on applications: if a certain model is based on the adaptation of a proprietary LLM, such as GPT, the evolution of the original LLM5 could significantly impact the adapted model. This means that developers of a model based on a proprietary LLM do not have full control of their system.
+
+This repository is dedicated to offering the latest advancements in this emerging field, serving as an updated resource for the community to enhance their research endeavors. We are committed to regularly updating and maintaining this repository to ensure accessibility to state-of-the-art knowledge
 
 ## Large Language Model as Data Scientists approaches: From Pure LLM strategy to hybrid one
 
@@ -32,18 +34,18 @@ In the realm of data science, Language Models (LMs) have emerged as powerful too
 
 ## LLM4VIS hypercube dimensions
 An LLM4VIS methodology can be delineated by a hypercube comprising the following dimensions:
-1. **Learning Strategy (Fine-tuning/Few-zero-shot learning)**: This dimension defines the methodology used for model training.
-2. **Task-Agnosticism**: This dimension assesses whether the model's input encompasses only the dataset or incorporates user utterances.
-3. **Approach**: This dimension distinguishes between a pure LLM approach and one enriched with additional tools or methodologies.
-4. **Output Explainability**: This dimension determines whether the model merely provides a visualization or includes a narrative to elucidate the reasoning strategy.
-5. **Effort**: This dimension quantifies the computational and strategic effort required to generate the output.
+1. **📚 Learning Strategy (Fine-tuning/Few-zero-shot learning)**: This dimension defines the methodology used for model training.
+2. **🎯 Task-Agnosticism**: This dimension assesses whether the model's input encompasses only the dataset or incorporates user utterances.
+3. **🤖 Approach**: This dimension distinguishes between a pure LLM approach and one enriched with additional tools or methodologies.
+4. **🩻 Output Explainability**: This dimension determines whether the model merely provides a visualization or includes a narrative to elucidate the reasoning strategy.
+5. **🧗‍♂️ Effort**: This dimension quantifies the computational and strategic effort required to generate the output.
 
 By leveraging these dimensions, it becomes feasible to categorize and evaluate all proposed approaches in the literature, providing a comprehensive overview of the current state-of-the-art in this domain.
 
 ## LLM4VIS index contents
 The LLM4VIS (Language Models for Visual Information Systems) index serves as a comprehensive guide to resources, tools, research papers, models, frameworks, datasets, benchmarks, and guidance relevant to the intersection of language and visual information systems. Below is an overview of each dimension covered in the index.
 - **Tools**: This section comprises essential resources like Python libraries and tools necessary to implement an effective Language Models for Visual Information Systems (LLM4Vis) approach.
-- **Research Paper**: This section compiles academic papers exploring large language models applied to the data visualization field
+- **Research Paper**: This section compiles academic papers exploring large language models applied to the data visualization field. It aslo categorizes each research paper based on the wide task they want to achive.
 - **Models**: This section contains all the models fine-tuned on the LLM4VIS tasks
 - **Framework**: This section contains all the works focused on developing the LLM4VIS framework
 - **Dataset**: This section contains a comprehensive list of all the datasets, categorized based on their task (e.g., captioning, nl2vis, ...)
@@ -90,10 +92,10 @@ The LLM4VIS (Language Models for Visual Information Systems) index serves as a c
 ### Benchmarks and Survey
 | Name | Description | 
 | ----------------- | ----------- | 
-| [Vi(E)va LLM! A Conceptual Stack for Evaluating and Interpreting Generative AI-based Visualizations]([https://arxiv.org/pdf/2401.14010.pdf](https://arxiv.org/abs/2402.02167)) | A survey of 79 papers to explore the role of large models in automating narrative visualization creation | 
-| [Visualization Generation with Large Language Models: An Evaluation]([https://arxiv.org/pdf/2401.11255.pdf](https://arxiv.org/pdf/2401.11255.pdf)) | Description of Example1 |
-| [Doom or Deliciousness: Challenges and Opportunities for Visualization in the Age of Generative Models](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.14841) | Description of Example3 | 
-| [Are LLMs ready for Visualization?](https://arxiv.org/pdf/2403.06158.pdf) | Description of Example3 | 
+| [Vi(E)va LLM! A Conceptual Stack for Evaluating and Interpreting Generative AI-based Visualizations]([https://arxiv.org/pdf/2401.14010.pdf](https://arxiv.org/abs/2402.02167)) | It proposes a theoretical evaluation stack, EvaLLM, that decomposes the evaluation effort in its atomic components, characterizes their nature, and provides an overview of how to implement and interpret them. | 
+| [Visualization Generation with Large Language Models: An Evaluation]([https://arxiv.org/pdf/2401.11255.pdf](https://arxiv.org/pdf/2401.11255.pdf)) | This paper evaluates the capability of a large language model to generate visualization specifications on the task of natural language to visualization (NL2VIS). More specifically, it used GPT-3.5 and Vega-Lite to represent large language models and visualization specifications respectively. |
+| [Doom or Deliciousness: Challenges and Opportunities for Visualization in the Age of Generative Models](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.14841) | This paper attempts to understand the roles that generative models might play across visualization. It does so by constructing a framework that characterizes what these technologies offer at various stages of the visualization workflow, augmented and analyzed through semi-structured interviews with 21 experts from related domains. Through this work, the authors map the space of opportunities and risks that might arise in this intersection, identifying doomsday prophecies and delicious low-hanging fruits that are ripe for research. | 
+| [Are LLMs ready for Visualization?](https://arxiv.org/pdf/2403.06158.pdf) | The paper goal is to propose a systematic approach that analyzes three elements: whether Large Language Models are capable of correctly generating a large variety of charts, what libraries they can deal with effectively, and how far we can go to configure individual charts. To achieve this objective, the authors initially selected a diverse set of charts, which are commonly utilized in data visualization.| 
 
 ## Submit Your Work
 
