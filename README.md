@@ -58,39 +58,40 @@ The LLM4VIS (Language Models for Visual Information Systems) index serves as a c
 
 
 ### Research Paper
-| Name | Description |
-| ----------------- | ----------- |
-| Example1 | Description of Example1 |
-| Example2 | Description of Example2 |
-| Example3 | Description of Example3 |
+| Name | Abstract | Type |
+| ----------------- | ----------- | ----- |
+| [LLM4Vis: Explainable Visualization Recommendation using ChatGPT](https://arxiv.org/pdf/2310.07652.pdf) |  LLM4Vis, a novel ChatGPT-based prompting approach to perform visualization recommendation and return human-like explanations using very few demonstration examples. The approach involves feature description, demonstration example selection, explanation generation, demonstration example construction, and inference steps. To obtain demonstration examples with high-quality explanations, the method propose a new explanation generation bootstrapping to iteratively refine generated explanations by considering the previous generation and templatebased hint. | Task agnostic VRS |
+| [LIDA: A Tool for Automatic Generation of Grammar-Agnostic Visualizations and Infographics using Large Language Models](https://arxiv.org/pdf/2303.02927.pdf) | LIDA, a novel tool for generating grammar-agnostic visualizations and infographics. LIDA comprises of 4 modules - A SUMMARIZER that converts data into a rich but compact natural language summary, a GOAL EXPLORER that enumerates visualization goals given the data, a VISGENERATOR that generates, refines, executes and filters visualization code and an INFOGRAPHER module that yields data-faithful stylized graphics using IGMs. LIDA provides a python api, and a hybrid USER INTERFACE (direct manipulation and multilingual natural language) for interactive chart, infographics and data story generation. | Task agnostic VRS |
+| [NL2INTERFACE: Interactive Visualization Interface Generation from Natural Language Queries](https://arxiv.org/pdf/2209.08834.pdf) |  NL2INTERFACE explores the potential of generating usable interactive multi-visualization interfaces from natural language queries. With NL2INTERFACE, users can directly write natural language queries to automatically generate a fully interactive multi-visualization interface without any extra effort of learning a tool or programming language. Furthermore, users can interact with the interfaces to easily transform data and quickly see results in the visualizations. | Text2Vis |
+| [ChartGPT: Leveraging LLMs to Generate Charts from Abstract Natural Language](https://ieeexplore.ieee.org/abstract/document/10443572?casa_token=0_4_DjYe0QwAAAAA:uJcxy-Z4nHa-aWVu5pEXgt0svGsyj0PoNJjTmyGwMV5B31PYkeDfSsakqCVmWviS-TPw3NjRBw) | ChartGPT, generating charts from abstract natural language inputs. However, LLMs are struggling to address complex logic problems. To enable the model to accurately specify the complex parameters and perform operations in chart generation, the task has been decomposed into a step-by-step reasoning pipeline, so that the model only needs to reason a single and specific sub-task during each run. Moreover, LLMs are pre-trained on general datasets, which might be biased for the task of chart generation. To provide adequate visualization knowledge, a dataset has been created consisting of abstract utterances and charts and improve model performance through fine-tuning. | Text2Vis |
+| [Table2Charts: Recommending Charts by Learning Shared Table Representations](https://dl.acm.org/doi/pdf/10.1145/3447548.3467279) | Table2Charts framework which learns common patterns from a large corpus of (table, charts) pairs. Based on deep Q-learning with copying mechanism and heuristic searching, Table2Charts does table-to-sequence generation, where each sequence follows a chart template.  | Text2DataAnalysis |
+| [SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models](https://proceedings.neurips.cc/paper_files/paper/2023/hash/0ff30c4bf31db0119a6219e0d250e037-Abstract-Conference.html) | SheetCopilot agent takes natural language as input and control spreadsheet to fulfill the requirements. The approach proposes a set of atomic actions as an abstraction of spreadsheet software functionalities. It further designs a state machine-based task planning framework for LLMs to robustly interact with spreadsheets.  | Text2DataAnalysis |
 
 ### Models
 | Name | Description |
 | ----------------- | ----------- |
-| Example1 | Description of Example1 |
-| Example2 | Description of Example2 |
-| Example3 | Description of Example3 |
+| [BambooLLM](https://huggingface.co/pandasai/bamboo-llm) | PandasAI supports several large language models (LLMs). LLMs are used to generate code from natural language queries. The generated code is then executed to produce the result. |
+| [ChartGPT](https://huggingface.co/yuan-tian/chartgpt) | This is the model proposed to convert abstract queries on a dataset to data visualization as proposed in the original reasearch paper (ChartGPT: Leveraging LLMs to Generate Charts from Abstract Natural Language)[https://ieeexplore.ieee.org/abstract/document/10443572?casa_token=0_4_DjYe0QwAAAAA:uJcxy-Z4nHa-aWVu5pEXgt0svGsyj0PoNJjTmyGwMV5B31PYkeDfSsakqCVmWviS-TPw3NjRBw] |
 
 ### Frameworks
 | Name | Description | 
 | ----------------- | ----------- |
-| Example1 | Description of Example1 |
-| Example2 | Description of Example2 |
-| Example3 | Description of Example3 |
+| [Natural Language Dataset Generation Framework for Visualizations Powered by Large Language Models](https://arxiv.org/abs/2309.10245) | VL2NL, a Large Language Model (LLM) framework that generates rich and diverse NL datasets using only Vega-Lite specifications as input, thereby streamlining the development of Natural Language Interfaces (NLIs) for data visualization. |
+| [DATATALES: Investigating the use of Large Language Models for Authoring Data-Driven Articles](https://ieeexplore.ieee.org/abstract/document/10360883) | DATATALES a prototype system that leverages a LLM to generate textual narratives accompanying a given chart. |
 
 ### Datasets
 | Name | Description | Task |
 | ----------------- | ----------- | ------- |
-| Example1 | Description of Example1 | Captioning |
-| Example2 | Description of Example2 | Nl2vis |
-| Example3 | Description of Example3 | Nl2vis |
+| []() | Description of Example1 | Captioning |
+| []() | Description of Example2 | Nl2vis |
+| []() | Description of Example3 | Nl2vis |
 
 ### Benchmarks and Survey
 | Name | Description | 
 | ----------------- | ----------- | 
 | [LLM4VIS evaluation](https://arxiv.org/pdf/2401.11255.pdf) | Description of Example1 |
 | [Leveraging Large Models for Crafting Narrative Visualization](https://arxiv.org/pdf/2401.14010.pdf) | A survey of 79 papers to explore the role of large models in automating narrative visualization creation | 
-| Example3 | Description of Example3 | 
+| []() | Description of Example3 | 
 
 ## Submit Your Work
 
