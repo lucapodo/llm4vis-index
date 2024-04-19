@@ -80,18 +80,20 @@ The LLM4VIS (Language Models for Visual Information Systems) index serves as a c
 | [DATATALES: Investigating the use of Large Language Models for Authoring Data-Driven Articles](https://ieeexplore.ieee.org/abstract/document/10360883) | DATATALES a prototype system that leverages a LLM to generate textual narratives accompanying a given chart. |
 
 ### Datasets
-| Name | Description | Task |
+| Name | Description | Type |
 | ----------------- | ----------- | ------- |
-| []() | Description of Example1 | Captioning |
-| []() | Description of Example2 | Nl2vis |
-| []() | Description of Example3 | Nl2vis |
+| [nvBench: Natural Language to Visualization (NL2VIS) Benchmarks](https://github.com/TsinghuaDatabaseGroup/nvBench) | nvBench is a large dataset for complex and cross-domain NL2VIS task, which covers 105 domains, supports seven common types of visualizations, and contains 25,750 (NL, VIS) pairs. This repository contains the corpus of NL2VIS, with JSON format and Vega-Lite format. | Table-Query-VegaLite |
+| [VIS30K](https://visimagenavigator.github.io/getStarted.html) | VIS30K is a collection of 31,481 images including every figure and table for 30 years spanning each track of the IEEE Visualization conference series (Vis, SciVis, InfoVis, and VAST). | Table-Image |
+| [VisText: A Benchmark for Semantically Rich Chart Captioning](https://github.com/mitvis/vistext) | VisText is a benchmark dataset of over 12,000 charts and semantically rich captions! In the VisText dataset, each chart is represented as its rasterized image, scene graph specification, and underlying datatable. Each chart is paired with a synthetic L1 caption that describes the chart's elemental and ecoded properties and a human-generated L2/L3 caption that describes trends and statistics about the chart. | Captioning |
+| [Quda: Natural Language Queries for Visual Data Analytics](https://arxiv.org/abs/2005.03257) | Quda aims to help V-NLIs recognize analytic tasks from free-form natural language by training and evaluating cutting-edge multi-label classification models. The dataset contains 14,035 diverse user queries, and each is annotated with one or multiple analytic tasks. | Queries |
 
 ### Benchmarks and Survey
 | Name | Description | 
 | ----------------- | ----------- | 
-| [LLM4VIS evaluation](https://arxiv.org/pdf/2401.11255.pdf) | Description of Example1 |
-| [Leveraging Large Models for Crafting Narrative Visualization](https://arxiv.org/pdf/2401.14010.pdf) | A survey of 79 papers to explore the role of large models in automating narrative visualization creation | 
-| []() | Description of Example3 | 
+| [Vi(E)va LLM! A Conceptual Stack for Evaluating and Interpreting Generative AI-based Visualizations]([https://arxiv.org/pdf/2401.14010.pdf](https://arxiv.org/abs/2402.02167)) | A survey of 79 papers to explore the role of large models in automating narrative visualization creation | 
+| [Visualization Generation with Large Language Models: An Evaluation]([https://arxiv.org/pdf/2401.11255.pdf](https://arxiv.org/pdf/2401.11255.pdf)) | Description of Example1 |
+| [Doom or Deliciousness: Challenges and Opportunities for Visualization in the Age of Generative Models](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.14841) | Description of Example3 | 
+| [Are LLMs ready for Visualization?](https://arxiv.org/pdf/2403.06158.pdf) | Description of Example3 | 
 
 ## Submit Your Work
 
