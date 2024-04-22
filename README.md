@@ -37,8 +37,8 @@ An LLM4VIS method is crafted to integrate an LLM into one or more steps of a dat
 By leveraging these dimensions, it becomes feasible to categorize and evaluate all proposed approaches in the literature, providing a comprehensive overview of the current state-of-the-art in this domain.
 
 ## LLM4VIS index contents
-The LLM4VIS (Language Models for Visual Information Systems) index serves as a comprehensive guide to resources, tools, research papers, models, frameworks, datasets, benchmarks, and guidance relevant to the intersection of language and visual information systems. Below is an overview of each dimension covered in the index.
-- **🔧 Tools**: This section comprises essential resources like Python libraries and tools necessary to implement an effective Language Models for Visual Information Systems (LLM4Vis) approach.
+The LLM4VIS (Language Models for Visualizations) index serves as a comprehensive guide to resources, tools, research papers, models, frameworks, datasets, benchmarks, and guidance relevant to the intersection of language and visual information systems. Below is an overview of each dimension covered in the index.
+- **🔧 Tools**: This section comprises essential resources like Python libraries and tools necessary to implement an effective LLM4VIS approach.
 - **📝 Research Paper**: This section compiles academic papers exploring large language models applied to the data visualization field. It aslo categorizes each research paper based on the wide task they want to achive. In details the types are:
      - Dataset2Vis: These approaches entail fully automated pipelines that generate visualizations solely based on the input dataset.
      - Text2DataAnalysis: Encompassing tasks beyond visualization alone, this category includes papers covering data manipulation and transformation alongside visualization.
