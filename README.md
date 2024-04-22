@@ -16,6 +16,9 @@
 ## LLM4VIS index badge
 To link the repository to your work add the following badge: 
 ![Static Badge](https://img.shields.io/badge/indexed_on-llm4vis_index-red?link=https%3A%2F%2Fgithub.com%2Flucapodo%2Fllm4vis-index)
+```
+![Static Badge](https://img.shields.io/badge/indexed_on-llm4vis_index-red?link=https%3A%2F%2Fgithub.com%2Flucapodo%2Fllm4vis-index)
+```
 
 ## LLM4VIS Introduction
 
