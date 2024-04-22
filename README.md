@@ -23,18 +23,8 @@ Following the disruptive use of generative artificial intelligence across applic
 
 This repository is dedicated to offering the latest advancements in this emerging field, serving as an updated resource for the community to enhance their research endeavors. We are committed to regularly updating and maintaining this repository to ensure accessibility to state-of-the-art knowledge
 
-## Large Language Model as Data Scientists approaches: From Pure LLM strategy to hybrid one
-
-In the realm of data science, Language Models (LMs) have emerged as powerful tools for various tasks, both as standalone entities and in conjunction with coding environments like Python. Here's a brief overview of what can be achieved using LMs in both scenarios:
-
-- **Pure LLM Approach**: LLMs can sift through large volumes of textual data, extracting key insights, trends, and patterns without the need for additional agents or components.
-- **LLMs with Code Environment Integration**: LLMs can generate code snippets for tasks like data cleaning, transformation, and normalization, which can then be executed within a coding environment to prepare data for analysis.
-
-![Alt text](pure.svg "Pure approach")
-![Alt text](hybrid.svg "Hybrid approach")
-
 ## LLM4VIS hypercube dimensions
-An LLM4VIS methodology can be delineated by a hypercube comprising the following dimensions:
+An LLM4VIS method is crafted to integrate an LLM into one or more steps of a data visualization pipeline. In this section, we offer a list of dimensions/categories that can aid in constructing a new method/model/strategy. This repository presents dimensions identified from the diverse approaches discussed here. Hence, an LLM4VIS methodology can be defined by a hypercube consisting of the following dimensions:
 1. **📚 Learning Strategy (Fine-tuning/Few-zero-shot learning)**: This dimension defines the methodology used for model training.
 2. **🎯 Task-Agnosticism**: This dimension assesses whether the model's input encompasses only the dataset or incorporates user utterances.
 3. **🤖 Approach**: This dimension distinguishes between a pure LLM approach and one enriched with additional tools or methodologies.
@@ -51,6 +41,7 @@ The LLM4VIS (Language Models for Visual Information Systems) index serves as a c
 - **Framework**: This section contains all the works focused on developing the LLM4VIS framework
 - **Dataset**: This section contains a comprehensive list of all the datasets, categorized based on their task (e.g., captioning, nl2vis, ...)
 - **Benchmark and Guidance**: This section contains all the research papers that provide guidelines or benchmarks for the other researchers.
+- **User Expectations**: This section presents research papers exploring user expectations regarding interacting with LLM-based (or more generally, ML-chatbot) systems.
 
 ### Tools
 | Name | Description | 
