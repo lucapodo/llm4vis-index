@@ -9,7 +9,8 @@
     * [Models](#models) 🤖
     * [Framework](#framework) 🛠️
     * [Dataset](#dataset) 📦
-    * [Benchmark and Survey](#benchmark-and-guidance) 📈
+    * [Benchmark and Survey](#benchmark-and-guidance) 📋
+    * [User Expectations](#user-expectations) 🧐
 * [Submit Your Work](#submit-your-work) 📥
 * [Citation and Contribution](#citation-and-contribution) 🔖
 
@@ -46,7 +47,7 @@ The LLM4VIS (Language Models for Visualizations) index serves as a comprehensive
      - Text2CodeAsVis: This category comprises papers where the input consists of a dataset and a user query, resulting in a visualization output in the form of code (e.g., Python).
 - **🤖 Models**: This section contains all the models fine-tuned on the LLM4VIS tasks
 - **🛠️ Framework**: This section contains all the works focused on developing the LLM4VIS framework
-- **📊 Dataset**: This section contains a comprehensive list of all the datasets, categorized based on their task (e.g., captioning, nl2vis, ...)
+- **📦 Dataset**: This section contains a comprehensive list of all the datasets, categorized based on their task (e.g., captioning, nl2vis, ...)
 - **📋 Benchmark and Guidance**: This section contains all the research papers that provide guidelines or benchmarks for the other researchers.
 - **🧐 User Expectations**: This section presents research papers exploring user expectations regarding interacting with LLM-based (or more generally, ML-chatbot) systems.
 
@@ -78,7 +79,7 @@ The LLM4VIS (Language Models for Visualizations) index serves as a comprehensive
 | [BambooLLM](https://huggingface.co/pandasai/bamboo-llm) | PandasAI supports several large language models (LLMs). LLMs are used to generate code from natural language queries. The generated code is then executed to produce the result. |
 | [ChartGPT](https://huggingface.co/yuan-tian/chartgpt) | This is the model proposed to convert abstract queries on a dataset to data visualization as proposed in the original reasearch paper [ChartGPT: Leveraging LLMs to Generate Charts from Abstract Natural Language](https://ieeexplore.ieee.org/abstract/document/10443572?casa_token=0_4_DjYe0QwAAAAA:uJcxy-Z4nHa-aWVu5pEXgt0svGsyj0PoNJjTmyGwMV5B31PYkeDfSsakqCVmWviS-TPw3NjRBw) |
 
-### Frameworks
+### 🛠️ Frameworks
 | Name | Description | 
 | ----------------- | ----------- |
 | [Natural Language Dataset Generation Framework for Visualizations Powered by Large Language Models](https://arxiv.org/abs/2309.10245) | VL2NL, a Large Language Model (LLM) framework that generates rich and diverse NL datasets using only Vega-Lite specifications as input, thereby streamlining the development of Natural Language Interfaces (NLIs) for data visualization. |
@@ -86,7 +87,7 @@ The LLM4VIS (Language Models for Visualizations) index serves as a comprehensive
 |[LLM-in-the-loop: Leveraging Large Language Model for Thematic Analysis](https://arxiv.org/abs/2310.15100)| The authors propose a human-LLM collaboration framework (i.e., LLM-in-the-loop) to conduct TA with in-context learning (ICL). This framework provides the prompt to frame discussions with a LLM (e.g., GPT-3.5) to generate the final codebook for TA.|
 |[JarviX: A LLM No code Platform for Tabular Data Analysis and Optimization](https://arxiv.org/abs/2312.02213)| JarviX is a sophisticated data analytics framework. JarviX is designed to employ Large Language Models (LLMs) to facilitate an automated guide and execute high-precision data analyzes on tabular datasets. This framework emphasizes the significance of varying column types, capitalizing on state-of-the-art LLMs to generate concise data insight summaries, propose relevant analysis inquiries, visualize data effectively, and provide comprehensive explanations for results drawn from an extensive data analysis pipeline. Moreover, JarviX incorporates an automated machine learning (AutoML) pipeline for predictive modeling.|
 
-### 📊 Datasets
+### 📦 Datasets
 | Name | Description | Type |
 | ----------------- | ----------- | ------- |
 | [nvBench: Natural Language to Visualization (NL2VIS) Benchmarks](https://github.com/TsinghuaDatabaseGroup/nvBench) | nvBench is a large dataset for complex and cross-domain NL2VIS task, which covers 105 domains, supports seven common types of visualizations, and contains 25,750 (NL, VIS) pairs. This repository contains the corpus of NL2VIS, with JSON format and Vega-Lite format. | Table-Query-VegaLite |
