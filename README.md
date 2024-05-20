@@ -14,13 +14,6 @@
 * [Submit Your Work](#submit-your-work) 📥
 * [Citation and Contribution](#citation-and-contribution) 🔖
 
-## LLM4VIS index badge
-To link the repository to your work add the following badge: 
-![Static Badge](https://img.shields.io/badge/indexed_on-llm4vis_index-red?link=https%3A%2F%2Fgithub.com%2Flucapodo%2Fllm4vis-index)
-```
-![Static Badge](https://img.shields.io/badge/indexed_on-llm4vis_index-red?link=https%3A%2F%2Fgithub.com%2Flucapodo%2Fllm4vis-index)
-```
-
 ## LLM4VIS Introduction
 
 Following the disruptive use of generative artificial intelligence across application domains, LLM4VIS (Large Language Model for Visualizations) is becoming one of the most promising research areas to advance existing NL2VIS approaches. LLM4VIS aims to use cutting-edge LLM technology to query data sources using only natural language queries and translate them into visualizations that accurately represent the underlying data. Although LLM like Llama or GPT, have shown a more advanced semantic understanding of free text, they suffer from the lack of interpretability of the model’s responses. Furthermore LLM, those involving computationally intensive and expensive architectures containing billions, and recently trillions of parameters, also have other contraindications, such as hallucinations, the lack of controllability and interpretability, and the high computational cost, hindering their large-scale adoption in applications. In particular, controllability has a notable, and often neglected, impact on applications: if a certain model is based on the adaptation of a proprietary LLM, such as GPT, the evolution of the original LLM could significantly impact the adapted model. This means that developers of a model based on a proprietary LLM do not have full control of their system.
