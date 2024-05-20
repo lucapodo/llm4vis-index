@@ -5,11 +5,11 @@
 * [LLM4VIS hypercube](#llm4vis-hypercube) 📊
 * [LLM4VIS index contents](#llm4vis-index-contents) 📚
     * [Tools](#tools) 🔧
-    * [Research Paper](#research-paper) 📄
+    * [Applications](#applications) 📄
     * [Models](#models) 🤖
-    * [Framework](#framework) 🛠️
-    * [Dataset](#dataset) 📦
-    * [Benchmark and Survey](#benchmark-and-guidance) 📋
+    * [Frameworks](#framework) 🛠️
+    * [Benchmarks](#benchmarks) 📦
+    * [Evaluations and Survives](#evaluations-and-guidance) 📋
     * [User Expectations](#user-expectations) 🧐
 * [Submit Your Work](#submit-your-work) 📥
 * [Citation and Contribution](#citation-and-contribution) 🔖
@@ -40,15 +40,15 @@ By leveraging these dimensions, it becomes feasible to categorize and evaluate a
 ## LLM4VIS index contents
 The LLM4VIS (Language Models for Visualizations) index serves as a comprehensive guide to resources, tools, research papers, models, frameworks, datasets, benchmarks, and guidance relevant to the intersection of language and visual information systems. Below is an overview of each dimension covered in the index.
 - **🔧 Tools**: This section comprises essential resources like Python libraries and tools necessary to implement an effective LLM4VIS approach.
-- **📝 Research Paper**: This section compiles academic papers exploring large language models applied to the data visualization field. It aslo categorizes each research paper based on the wide task they want to achive. In details the types are:
+- **📝 Applications**: This section compiles academic papers exploring large language models applied to the data visualization field. It aslo categorizes each research paper based on the wide task they want to achive. In details the types are:
      - Dataset2Vis: These approaches entail fully automated pipelines that generate visualizations solely based on the input dataset.
      - Text2DataAnalysis: Encompassing tasks beyond visualization alone, this category includes papers covering data manipulation and transformation alongside visualization.
      - Text2Vis: Papers falling into this category take a dataset and a user query as input, yielding a visualization output in the form of an image or a defined grammar (e.g., Vega-Lite).
      - Text2CodeAsVis: This category comprises papers where the input consists of a dataset and a user query, resulting in a visualization output in the form of code (e.g., Python).
 - **🤖 Models**: This section contains all the models fine-tuned on the LLM4VIS tasks
-- **🛠️ Framework**: This section contains all the works focused on developing the LLM4VIS framework
-- **📦 Dataset**: This section contains a comprehensive list of all the datasets, categorized based on their task (e.g., captioning, nl2vis, ...)
-- **📋 Benchmark and Guidance**: This section contains all the research papers that provide guidelines or benchmarks for the other researchers.
+- **🛠️ Frameworks**: This section contains all the works focused on developing the LLM4VIS framework
+- **📦 Benchmarks**: This section contains a comprehensive list of all the datasets, categorized based on their task (e.g., captioning, nl2vis, ...)
+- **📋 Evaluations and Survives**: This section contains all the research papers that provide evaluations or benchmarks for the other researchers.
 - **🧐 User Expectations**: This section presents research papers exploring user expectations regarding interacting with LLM-based (or more generally, ML-chatbot) systems.
 
 ### 🔧 Tools
@@ -57,9 +57,10 @@ The LLM4VIS (Language Models for Visualizations) index serves as a comprehensive
 | [PandasAI](https://github.com/Sinaptik-AI/pandas-ai) | PandasAI is a Python library that makes it easy to ask questions to your data (CSV, XLSX, PostgreSQL, MySQL, BigQuery, Databrick, Snowflake, etc.) in natural language. Beyond querying, PandasAI offers functionalities to visualize data through graphs, cleanse datasets by addressing missing values, and enhance data quality through feature generation, making it a comprehensive tool for data scientists and analysts.
 | [VannaAI](https://github.com/vanna-ai/vanna) | Vanna is an MIT-licensed open-source Python RAG (Retrieval-Augmented Generation) framework for SQL generation and related functionality. It also allows to generate visualization with plotly based on the SQL queries. | 
 | [OpenAI Codeinterpreter](https://platform.openai.com/docs/assistants/tools/code-interpreter#:~:text=Code%20Interpreter%20allows%20your%20Assistant,until%20the%20code%20execution%20succeeds.) | Code Interpreter can run code iteratively to solve more challenging code, math, and data analysis problems| 
+|[LLM Comparator](https://medium.com/people-ai-research/llm-comparator-a-tool-for-human-driven-llm-evaluation-81292c17f521)| Evaluating a Generative AI model, like Gemma 2 –whose upcoming release was announced today at Google I/O — requires assessing its outputs. That’s pretty straightforward for models that analyze quantitative datasets to predict the weather or the price of corn, because you can see how accurate their predictions are. But when you’re dealing with a model that’s responding to users’ written prompts, responses need to be more than just accurate. They also have to be clear, respectful, and contain an appropriate level of detail. That’s why we’re proud to introduce the LLM Comparator, the latest tool in Google’s Responsible Generative AI Toolkit that helps developers deploy their models with safety and responsibility top of mind. |
 
 
-### 📝 Research Paper
+### 📝 Applications
 | Name | Abstract | Type |
 | ----------------- | ----------- | ----- |
 | [LLM4Vis: Explainable Visualization Recommendation using ChatGPT](https://arxiv.org/pdf/2310.07652.pdf) |  LLM4Vis, a novel ChatGPT-based prompting approach to perform visualization recommendation and return human-like explanations using very few demonstration examples. The approach involves feature description, demonstration example selection, explanation generation, demonstration example construction, and inference steps. To obtain demonstration examples with high-quality explanations, the method propose a new explanation generation bootstrapping to iteratively refine generated explanations by considering the previous generation and templatebased hint. | Dataset2Vis |
@@ -87,7 +88,7 @@ The LLM4VIS (Language Models for Visualizations) index serves as a comprehensive
 |[LLM-in-the-loop: Leveraging Large Language Model for Thematic Analysis](https://arxiv.org/abs/2310.15100)| The authors propose a human-LLM collaboration framework (i.e., LLM-in-the-loop) to conduct TA with in-context learning (ICL). This framework provides the prompt to frame discussions with a LLM (e.g., GPT-3.5) to generate the final codebook for TA.|
 |[JarviX: A LLM No code Platform for Tabular Data Analysis and Optimization](https://arxiv.org/abs/2312.02213)| JarviX is a sophisticated data analytics framework. JarviX is designed to employ Large Language Models (LLMs) to facilitate an automated guide and execute high-precision data analyzes on tabular datasets. This framework emphasizes the significance of varying column types, capitalizing on state-of-the-art LLMs to generate concise data insight summaries, propose relevant analysis inquiries, visualize data effectively, and provide comprehensive explanations for results drawn from an extensive data analysis pipeline. Moreover, JarviX incorporates an automated machine learning (AutoML) pipeline for predictive modeling.|
 
-### 📦 Datasets
+### 📦 Benchmarks
 | Name | Description | Type |
 | ----------------- | ----------- | ------- |
 | [nvBench: Natural Language to Visualization (NL2VIS) Benchmarks](https://github.com/TsinghuaDatabaseGroup/nvBench) | nvBench is a large dataset for complex and cross-domain NL2VIS task, which covers 105 domains, supports seven common types of visualizations, and contains 25,750 (NL, VIS) pairs. This repository contains the corpus of NL2VIS, with JSON format and Vega-Lite format. | Table-Query-VegaLite |
@@ -95,8 +96,9 @@ The LLM4VIS (Language Models for Visualizations) index serves as a comprehensive
 | [VisText: A Benchmark for Semantically Rich Chart Captioning](https://github.com/mitvis/vistext) | VisText is a benchmark dataset of over 12,000 charts and semantically rich captions! In the VisText dataset, each chart is represented as its rasterized image, scene graph specification, and underlying datatable. Each chart is paired with a synthetic L1 caption that describes the chart's elemental and ecoded properties and a human-generated L2/L3 caption that describes trends and statistics about the chart. | Captioning |
 | [Quda: Natural Language Queries for Visual Data Analytics](https://arxiv.org/abs/2005.03257) | Quda aims to help V-NLIs recognize analytic tasks from free-form natural language by training and evaluating cutting-edge multi-label classification models. The dataset contains 14,035 diverse user queries, and each is annotated with one or multiple analytic tasks. | Queries |
 |[ChartQA: A benchmark for question answering about charts with visual and logical reasoning](https://arxiv.org/abs/2203.10244)| The authors present a large-scale benchmark covering 9.6K human-written questions as well as 23.1K questions generated from human-written chart summaries. To address the unique challenges in our benchmark involving visual and logical reasoning over charts, we present two transformer-based models that combine visual features and the data table of the chart in a unified way to answer questions. | Query-Vis (as img)|
+| [Plot2Code: A Comprehensive Benchmark for Evaluating Multi-modal Large Language Models in Code Generation from Scientific Plots](https://arxiv.org/pdf/2405.07990v1) | Plot2Code, a comprehensive visual coding benchmark designed for a fair and in-depth assessment of MLLMs. It contains 132 manually selected high-quality matplotlib plots across six plot types from publicly available matplotlib galleries. For each plot, we carefully offer its source code, and an descriptive instruction summarized by GPT-4. | Query-Image |
 
-### 📋 Benchmarks and Survey
+### 📋 Evaluations and Survives
 | Name | Description | 
 | ----------------- | ----------- | 
 | [Vi(E)va LLM! A Conceptual Stack for Evaluating and Interpreting Generative AI-based Visualizations](https://arxiv.org/abs/2402.02167) | It proposes a theoretical evaluation stack, EvaLLM, that decomposes the evaluation effort in its atomic components, characterizes their nature, and provides an overview of how to implement and interpret them. | 
