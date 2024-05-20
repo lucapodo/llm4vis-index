@@ -9,7 +9,7 @@
     * [Models](#models) 🤖
     * [Frameworks](#framework) 🛠️
     * [Benchmarks](#benchmarks) 📦
-    * [Evaluations and Survives](#evaluations-and-guidance) 📋
+    * [Evaluations and Surveys](#evaluations-and-guidance) 📋
     * [User Expectations](#user-expectations) 🧐
 * [Submit Your Work](#submit-your-work) 📥
 * [Citation and Contribution](#citation-and-contribution) 🔖
@@ -41,7 +41,7 @@ The LLM4VIS (Language Models for Visualizations) index serves as a comprehensive
 - **🤖 Models**: This section contains all the models fine-tuned on the LLM4VIS tasks
 - **🛠️ Frameworks**: This section contains all the works focused on developing the LLM4VIS framework
 - **📦 Benchmarks**: This section contains a comprehensive list of all the datasets, categorized based on their task (e.g., captioning, nl2vis, ...)
-- **📋 Evaluations and Survives**: This section contains all the research papers that provide evaluations or benchmarks for the other researchers.
+- **📋 Evaluations and Surveys**: This section contains all the research papers that provide evaluations or benchmarks for the other researchers.
 - **🧐 User Expectations**: This section presents research papers exploring user expectations regarding interacting with LLM-based (or more generally, ML-chatbot) systems.
 
 ### 🔧 Tools
@@ -91,7 +91,7 @@ The LLM4VIS (Language Models for Visualizations) index serves as a comprehensive
 |[ChartQA: A benchmark for question answering about charts with visual and logical reasoning](https://arxiv.org/abs/2203.10244)| The authors present a large-scale benchmark covering 9.6K human-written questions as well as 23.1K questions generated from human-written chart summaries. To address the unique challenges in our benchmark involving visual and logical reasoning over charts, we present two transformer-based models that combine visual features and the data table of the chart in a unified way to answer questions. | Query-Vis (as img)|
 | [Plot2Code: A Comprehensive Benchmark for Evaluating Multi-modal Large Language Models in Code Generation from Scientific Plots](https://arxiv.org/pdf/2405.07990v1) | Plot2Code, a comprehensive visual coding benchmark designed for a fair and in-depth assessment of MLLMs. It contains 132 manually selected high-quality matplotlib plots across six plot types from publicly available matplotlib galleries. For each plot, we carefully offer its source code, and an descriptive instruction summarized by GPT-4. | Query-Image |
 
-### 📋 Evaluations and Survives
+### 📋 Evaluations and Surveys
 | Name | Description | 
 | ----------------- | ----------- | 
 | [Vi(E)va LLM! A Conceptual Stack for Evaluating and Interpreting Generative AI-based Visualizations](https://arxiv.org/abs/2402.02167) | It proposes a theoretical evaluation stack, EvaLLM, that decomposes the evaluation effort in its atomic components, characterizes their nature, and provides an overview of how to implement and interpret them. | 
